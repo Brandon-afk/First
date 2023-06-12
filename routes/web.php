@@ -39,3 +39,7 @@ Route::get('posts/{post}', function ($slug) {
 Route::get('/nuevaruta', function () {
     return view('nuevaruta');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
